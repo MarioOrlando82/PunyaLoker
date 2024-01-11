@@ -1,0 +1,698 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E1E7FF;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+nav div.left-nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav div img.logo{
+    width: 45%;
+}
+
+nav div button{
+    background-color: white;
+    border: none;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+nav div a button{
+    text-decoration: none;
+    color: #8667F1;
+}
+
+nav div.register-nav a button, nav div.login-nav a button{
+    color: white;
+    background-color: #8667F1;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8667F1;
+    padding: 0.5rem;
+}
+
+header div.left-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-left: 1rem;
+}
+
+header div.middle-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+header div.right-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-right: 1rem;
+}
+
+header div div a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+header div div.wrapper-search{
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div div input{
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+header div div input{
+    outline: none;
+}
+
+header div div img{
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+
+header div div button img{
+    width: 15%;
+    cursor: pointer;
+    padding: 0.6rem;
+}
+section{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+section div.left-section{
+    display: flex;
+    flex-direction: column;
+}
+section div div.left-job, section div div.right-job{
+    display: flex;
+    flex-direction: column;
+}
+
+section div div.wrapper-left-job{
+    display: flex;
+    gap: 2rem;
+}
+.left-job1, .left-job2, .left-job3, .right-job1, .right-job2, .right-job3{
+    padding: 1rem;
+    width: 300px;
+    height: 120px;
+    background-color: #E1E7FF;
+    border-radius: 10px;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+section .recommended {
+    color: #8667F1;
+    font-size: 20px;
+    font-weight: 700;
+}
+section div.right-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 30%;
+    gap: 1rem;
+}
+
+section div div.top-section{
+    display: flex;   
+    background-color: #E1E7FF;
+    border-radius: 10px;
+    width: 400px;
+    height: 330px;
+    padding: 1rem;
+}
+
+section div div.down-section{
+    display: flex;   
+    background-color: #E1E7FF;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    padding: 1rem;
+}
+
+section div div div.left-job1, section div div div.left-job2, section div div div.left-job3, section div div div.right-job1, section div div div.right-job2, section div div div.right-job3{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 92%;
+}
+section div div div.left-job1 p, section div div div.left-job2 p, section div div div.left-job3 p, section div div div.right-job1 p, section div div div.right-job2 p, section div div div.right-job3 p{
+    line-height: 3.5;
+}
+section div div div.left-job1 h3, section div div div.left-job2 h3, section div div div.left-job3 h3, section div div div.right-job1 h3, section div div div.right-job2 h3, section div div div.right-job3 h3{
+    color: #8667F1;
+}
+section .locationimg{
+    width: 10%;
+}
+section div div div img{
+    width: 80%;
+}
+
+section div div.top-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+section div div div.top-job1, section div div div.top-job2{
+    display: flex;
+}
+
+section div div div div{
+    line-height: 1.5;
+}
+
+section .suggested{
+    color:#8667F1;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+section div div div div h3{
+    color: #8667F1;
+}
+
+section div.down-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #8667F1;
+    font-weight: 700;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #E1E7FF;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+}
+
+footer div.left-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    margin-left: 2rem;
+    align-items: center;
+}
+
+footer div img{
+    width: 20%;
+}
+
+footer div.right-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5rem;
+    margin-left: 2rem;
+    align-items: center;
+}
+
+footer div a{
+    text-decoration: none;
+    color: black;
+}
+
+footer div.right-footer a{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.newheader{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+div.wrapper-login{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 70.5vh;
+}
+
+div.email input, div.password input{
+    background-color: #E1E7FF;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 17%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+div.wrapper-login div a{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.signin button, .create button{
+    color: white;
+    background-color: #8667F1;
+    outline: none;
+    border: none;
+    width: 19%;
+    height: 35px;
+    cursor: pointer;
+}
+
+.wrapper-register{
+    display: flex;
+    flex-direction: column;
+    background-color: #E1E7FF;
+    padding: 1rem;
+    justify-content: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    gap: 1.20rem;
+}
+div.wrapper-register h3{
+    color: #8667F1;
+}
+
+div.account p, div.personal p{
+    font-size: 10px;
+    font-weight: 100;
+    color: #8667F1;
+}
+
+input{
+    border: none;
+}
+
+div.name input, div.account div input, div.password-register input, div.personal div input, div.personal div input{
+    padding: 0.60rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    border-width: thin;
+    border-style: solid;
+    background-color:#E1E7FF;
+    border-color: #8667F1;
+}
+div.personal button{
+    display: flex;
+    border-radius: 15px;
+}
+div.first-column input{
+    color: gray;
+}
+
+input[type="date"] { 
+    background: transparent;
+    color: grey;
+    font-weight: 400;
+    width: 95%;
+}
+
+input[type="password"] { 
+    background: transparent;
+    color: grey;
+    font-weight: 400;
+    width: 95%;
+}
+
+input[type="text"] { 
+    background: transparent;
+    color: grey;
+    font-weight: 400;
+    width: 95%;
+}
+
+.jeniskelamin{
+    color: gray ;
+}
+
+div.wrapper-register button{
+    color: white;
+    background-color: #8667F1;
+    border: none;
+    padding: 0.5rem;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+div.wrapper-register div div.panjang input{
+    width: 95%;
+}
+
+div.account, div.personal{
+    border: #8667F1;
+    padding: 0.5rem;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: thin;
+}
+
+.aboutuspage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 61.5vh;
+}
+
+.logo-aboutus{
+    width: 30%;
+}
+
+.wrapper-aboutus{
+    margin-top: 3rem;
+    background-color:#E1E7FF;
+    padding: 3rem;
+    color: #8667F1;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.forum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70.5vh;
+}
+
+.perusahaan{
+    background-color:#E1E7FF;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.left-perusahaan{
+    display: flex;
+    gap: 1rem;
+    line-height: 1.5;
+    color: #8667F1;
+    width: 50%;
+}
+.right-perusahaan{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.right-perusahaan button{
+    color:#E1E7FF;
+    background-color: #8667F1;
+    border: none;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button.approved{
+    width: 120%;
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: white;
+}
+button.pending{
+    width: 140%;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: white;
+}
+button.rejected{
+    width: 120%;
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: white;
+}
+
+.addjobs-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E1E7FF;
+    flex-direction: column;
+    width: 55%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    height: 66vh;
+}
+
+.namaperusahaan, .lokasiperusahaan, .deskripsi, .persyaratan{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0.5rem;
+}
+
+div.addjobs-wrapper div p{
+    color: #8667F1;
+    font-weight: bold;
+}
+
+div.addjobs-wrapper div input, div.addjobs-wrapper div textarea{
+    border: none;
+    width: 735px;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+div.addjobs-wrapper button{
+    cursor: pointer;
+    background-color: #8667F1;
+    color: white;
+    border: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 767px;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.description-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50rem;
+    background-color: #E1E7FF;
+    padding: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.left-top-desc{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.bottom-desc{
+    display: flex;
+    flex-direction: column;
+    background-color: #E1E7FF;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 91%;
+    border-radius: 10px;
+    
+}
+
+div.left-top-desc div h3{
+    color: #8667F1;
+}
+
+.right-top-desc button{
+    color: white;
+    background-color: #8667F1;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.bottom-desc h2, .bottom-desc h5{
+    color: #8667F1;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+div.wrapper-register a{
+    width: 100%;
+    margin-left: 7rem;
+}
+.notif, .bahasa, .tips{
+    position: relative;
+    display: inline-block;
+}
+
+.notif:hover .dropdown-content, .bahasa:hover .dropdown-content, .tips:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content p, .dropdown-content a{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.right-perusahaan a{
+    width: 100%;
+}
+
+.addjobs-wrapper1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 61.5vh;
+}
+
+.wrapper-upload{
+    margin-top: 3rem;
+    background-color:#E1E7FF;
+    padding: 3rem;
+    color: #8667F1;
+    text-align:center;
+    margin-left: 5rem;
+    flex-direction: row;
+    margin-right: 5rem;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.wrapper-register h3{
+    text-align: center;
+}
+
+.wrapper-upload button{
+    background-color:#8667F1;
+    padding: 10px 40px;
+    color: #E1E7FF;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.wrapper-file input{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #8667F1;
+    color: #E1E7FF;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+}
